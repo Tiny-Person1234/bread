@@ -1,5 +1,19 @@
-bread
+Bread = 8
 
-bread
+move()
 
-bread
+for bread in range(Bread):
+    
+    paint(color['orange'])   
+    move()
+    
+turn_around()
+
+move()
+
+turn_right()
+
+for bread in range(Bread):
+    
+    paint(color['orange'])   
+    move()
