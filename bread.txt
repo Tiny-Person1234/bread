@@ -1,19 +1,45 @@
-Bread = 8
-
-move()
-
+Bread = 13
+for i in range (3):
+    move()
 for bread in range(Bread):
-    
     paint(color['orange'])   
     move()
-    
-turn_around()
-
+paint(color['orange'])  
+turn_left()
 move()
-
+for bread in range(Bread):
+    paint(color['orange'])   
+    move()
 turn_right()
-
-for bread in range(Bread):
-    
-    paint(color['orange'])   
+move()
+paint(color['orange'])
+turn_left()
+move()
+turn_right()
+move()
+paint(color['orange'])
+turn_left()
+for i in range (3):
     move()
+    paint(color['orange'])
+move()
+turn_left()
+move()
+for i in range (16):
+    paint(color['orange'])
+    move()
+turn_left()
+move()
+for i in range(4):
+    paint(color['orange'])
+    move()
+turn_left()
+move()
+paint(color['orange'])
+move()
+turn_right()
+move()
+for i in range(Bread):
+    paint(color['orange'])
+    move()
+turn_left()
